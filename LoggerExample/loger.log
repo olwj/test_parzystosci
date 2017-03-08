@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-02-28T17:00:50</date>
+  <millis>1488297650038</millis>
+  <sequence>0</sequence>
+  <logger>com.sdajava.logger.Main</logger>
+  <level>INFO</level>
+  <class>com.sdajava.logger.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Logger Name: com.sdajava.logger.Main</message>
+</record>
+<record>
+  <date>2017-02-28T17:00:50</date>
+  <millis>1488297650142</millis>
+  <sequence>1</sequence>
+  <logger>com.sdajava.logger.Main</logger>
+  <level>SEVERE</level>
+  <class>com.sdajava.logger.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Exception occur</message>
+  <exception>
+    <message>java.lang.ArrayIndexOutOfBoundsException: 4</message>
+    <frame>
+      <class>com.sdajava.logger.Main</class>
+      <method>main</method>
+      <line>24</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>62</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>com.intellij.rt.execution.application.AppMain</class>
+      <method>main</method>
+      <line>147</line>
+    </frame>
+  </exception>
+</record>
+</log>
